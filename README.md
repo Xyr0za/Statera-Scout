@@ -3,7 +3,8 @@
 Statera is an android application that functions as a bluetooth low energy proxy between a cyd_nightscout hardware device and nightscout web apis. it fetches requested data, compacts the json payloads to minimize bandwidth, and transmits the data back to the hardware.
 
 ## Core Components
-- Mainactivity: requests necessary system permissions, launches the background service, and terminates.- Bleproxyservice: operates as a persistent foreground service. it manages bluetooth scanning, connection states, network requests, data parsing, and chunked bluetooth transmissions.
+- Mainactivity: requests necessary system permissions, launches the background service, and terminates.
+- Bleproxyservice: operates as a persistent foreground service. it manages bluetooth scanning, connection states, network requests, data parsing, and chunked bluetooth transmissions.
 
 ## Bluetooth Specifications
 - target device name: cyd_nightscout
