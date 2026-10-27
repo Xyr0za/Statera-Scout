@@ -25,6 +25,9 @@ An ESP32-based Arduino sketch to display continuous glucose monitoring (CGM) dat
 2.  Pair with a compatible BLE source device.
 3.  Tap the screen via the XPT2046 touch interface to cycle through the time graph ranges (1h, 3h, 6h).
 
+<img width="1305" height="1740" alt="image" src="https://github.com/user-attachments/assets/8d639f54-c305-42d3-9414-2507d0f9ac83" />
+Moving past the shoddy DIY work from me - we see that the code functions as expected within the CYD. 
+
 # Statera Ble Proxy
 ## Overview
 Statera is an android application that functions as a bluetooth low energy proxy between a cyd_nightscout hardware device and nightscout web apis. it fetches requested data, compacts the json payloads to minimize bandwidth, and transmits the data back to the hardware.
