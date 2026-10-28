@@ -294,7 +294,7 @@ void drawTopBar() {
   tft.setTextColor(C_TEXT, C_PANEL);
   tft.drawString(buf, 6, 3, 2);
   tft.setTextColor(C_ACCENT, C_PANEL);
-  tft.drawCentreString("Statera", 120, 3, 2);
+  tft.drawCentreString("Statera Scout", 120, 3, 2);
   tft.fillCircle(228, 11, 5, deviceConnected ? C_ACCENT : C_LOW);
 }
 
@@ -737,7 +737,7 @@ void setup() {
   tft.fillScreen(C_BG);
   setBacklight(BACKLIGHT_LEVEL);
 
-  drawSplash("Statera", "Awaiting BLE companion...");
+  drawSplash("Statera Scout", "Awaiting BLE companion...");
 
   BLEDevice::init("CYD_Nightscout");
   BLEDevice::setMTU(185);
